@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
-  <link rel="stylesheet" href="./style.css">
-  <script src="//at.alicdn.com/t/font_908902_9f38e1xjlqo.js"></script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>我的画板</title>
-  <canvas id="xxx" width=300 height=300></canvas>
-  <div id=actions class="actions">
-    <svg id=pen class="active icon">
-      <use xlink:href="#icon-pen"></use>
-    </svg>
-    <svg id=rubber class="icon">
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>我的画板</title>
+  </head>
+  <body>
+    <canvas id="xxx" width=300 height=300></canvas>
+    <div id=actions class="actions">
+      <svg id=pen class="active icon">
+        <use xlink:href="#icon-pen"></use>
+      </svg>
+      <svg id=rubber class="icon">
         <use xlink:href="#icon-rubber"></use>
       </svg>
-  </div>
-  <ol class="colors">
-    <li id="red" class="red active"></li>
-    <li id="green" class="green"></li>
-    <li id="blue" class="blue"></li>
-    <li id="yellow" class="yellow"></li>
-    <li id="black" class="black"></li>
-  </ol>
-  <script src="./main.js"></script>
+    </div>
+    <ol class="colors">
+      <li id="red" class="red active"></li>
+      <li id="green" class="green"></li>
+      <li id="blue" class="blue"></li>
+      <li id="yellow" class="yellow"></li>
+      <li id="black" class="black"></li>
+    </ol>
+    <script src="./main.js"></script>
+    <script src="//at.alicdn.com/t/font_908902_9f38e1xjlqo.js"></script>
+  </body>
+  
 
 </html>
